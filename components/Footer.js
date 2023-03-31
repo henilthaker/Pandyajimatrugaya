@@ -32,18 +32,20 @@ const Footer = () => {
                         <li className="nav-item mb-2">Address: Bindusarovar, Siddhpur, Gujarat, India</li>
                     </ul> */}
                     <table cellPadding={10}>
-                        <tr>
-                            <td>Phone:</td>
-                            <td>9925072800</td>
-                        </tr>
-                        <tr>
-                            <td>Email:</td>
-                            <td>jigneshpandya@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td>Address:</td>
-                            <td>Bindusarovar, Siddhpur, Gujarat, India</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>Phone:</td>
+                                <td>9925072800</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td>jigneshpandya@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Address:</td>
+                                <td>Bindusarovar, Siddhpur, Gujarat, India</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </footer>
