@@ -20,6 +20,9 @@ const Navbar = () => {
                                 <Link className="nav-link" href="/matrugaya">Matrugaya</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" href="/about-siddhpur">About Siddhpur</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" href="/our-services">Our Services</Link>
                             </li>
                             <li className="nav-item">

@@ -11,5 +11,12 @@
     flex-grow: unset !important;
 }
 .navbar{
+    font-size: 1.1em;
     border-bottom: 1px solid rgb(156, 156, 156)
+}
+.navbar-brand{
+    font-size: 1.7em;
+}
+p{
+    font-size: 1.2em;
 }
