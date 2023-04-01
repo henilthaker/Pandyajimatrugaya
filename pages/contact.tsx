@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from '../styles/contact.module.css'
 export default function Contact() {
     return (
         <>
@@ -6,7 +7,24 @@ export default function Contact() {
                 <title>Pandyaji Matrugaya | Contact</title>
             </Head>
             <div className="container my-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic dignissimos doloremque libero nesciunt magnam enim sed mollitia illo est. Impedit totam adipisci, soluta saepe cumque sint doloremque quidem porro quia, dolorum accusamus ex. Nostrum, deleniti corporis harum libero esse quas repudiandae magni odio, atque vel praesentium autem consequatur architecto corrupti! Possimus natus pariatur, aspernatur eveniet error velit? Cupiditate ab culpa explicabo animi minima, odio, consequuntur officia eum libero nostrum labore maiores repudiandae nam velit. Minus, iste mollitia. Numquam quaerat dolorem beatae reiciendis ipsa temporibus error labore unde exercitationem aliquam! Modi esse libero eum blanditiis error architecto doloribus aperiam perferendis corrupti tempore veritatis autem totam est amet id, enim accusamus iure quasi ut culpa. Dignissimos dicta ut asperiores cumque ab eligendi praesentium debitis, hic fugiat quod id velit ipsa sed pariatur placeat beatae provident. Amet, natus expedita dolor tempora impedit, nemo laboriosam sit voluptate nobis magnam possimus, quia quis ipsa placeat nulla asperiores. In eum velit, officiis laboriosam sint, impedit soluta commodi nesciunt amet veniam nisi dicta? Ratione quo necessitatibus, laudantium, quod veritatis similique perferendis fugiat ipsa at illum sed molestias ab consequatur harum expedita alias natus mollitia cupiditate asperiores in? Ducimus qui neque unde ipsam nesciunt. Inventore modi incidunt nulla veritatis aliquam error magni reprehenderit facilis, ducimus quaerat hic fugit quibusdam totam nemo quisquam illum nostrum tempore placeat voluptas corrupti ea voluptate. Ad vel earum porro deserunt consequuntur maxime impedit beatae aspernatur et doloremque vitae perspiciatis ut in obcaecati aperiam, reprehenderit incidunt ratione sapiente magnam iure eos illo at. Est.
+                <div className={styles.contact_details}>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58351.333799760956!2d72.35030274715746!3d23.926528451205307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395cf4fdb8907cdb%3A0xb588efce07ef80e5!2sSiddhpur%2C%20Gujarat%20384151!5e0!3m2!1sen!2sin!4v1680359405268!5m2!1sen!2sin" width={450} height={450} loading={"lazy"}>
+                    </iframe>
+                    <div className="form">
+                        <div className="mb-3">
+                            <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
+                            <input type="email" className="form-control" id="exampleFormControlInput1"/>
+                        </div>
+                        <div className="mb-3">
+                            <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows={5}></textarea>
+                        </div>
+                        <center>
+                            <button type="button" className="btn btn-primary mx-4">Send Message</button>
+                        </center>
+
+                    </div>
+                </div>
             </div>
         </>
     )

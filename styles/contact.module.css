@@ -1,0 +1,4 @@
+.contact_details{
+    display: grid;
+    grid-template-columns: auto auto;
+}
