@@ -1,0 +1,33 @@
+.img{
+    margin-top: 4px;
+    position: absolute;
+    opacity: 0.5;
+}
+.welcome{
+    font-size: 24px;
+}
+.title{
+    font-size: 60px;
+    margin: 0px auto;
+    /* color:white; */
+}
+.subtitle{
+    font-size:24px;
+    margin:0px auto;
+    /* color:white; */
+}
+.titleImg{
+    /* backdrop-filter: contrast(200%) opacity(100%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 79vw;
+    /* background: url('/images/bindu-sarovar1.jpg');
+    background-blend-mode: overlay; */
+    /* color:white; */
+}
+.welcomeNote{
+    font-size: 18px;
+}

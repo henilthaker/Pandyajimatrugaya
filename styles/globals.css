@@ -7,7 +7,9 @@
 .container-fluid{
     justify-content: space-between !important;
 }
-
+.navbar-collapse{
+    flex-grow: unset !important;
+}
 .navbar{
     border-bottom: 1px solid rgb(156, 156, 156)
 }
