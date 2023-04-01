@@ -2,7 +2,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <div className="container">
-            <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+            <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
                 <div className="col mb-3">
                     <Link href="/" className="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
                         Pandyaji Matrugaya
@@ -36,15 +36,15 @@ const Footer = () => {
                     <table cellPadding={10}>
                         <tbody>
                             <tr>
-                                <td>Phone:</td>
+                                <td><i className="fa fa-phone fa-lg"></i></td>
                                 <td>9925072800</td>
                             </tr>
                             <tr>
-                                <td>Email:</td>
+                                <td><i className="fa fa-envelope"></i></td>
                                 <td>jigneshpandya@gmail.com</td>
                             </tr>
                             <tr>
-                                <td>Address:</td>
+                                <td><i className="fa fa-map-marker fa-lg"></i></td>
                                 <td>Bindusarovar, Siddhpur, Gujarat, India</td>
                             </tr>
                         </tbody>

@@ -1,4 +1,31 @@
-.contact_details{
+.contact{
     display: grid;
     grid-template-columns: auto auto;
+    margin-top: 1.5rem;
+}
+.contact_details{
+    width: fit-content;
+    background-color: coral;
+    color:white;
+    box-shadow: 2px 2px 4px rgb(112, 112, 112);
+}
+.button{
+    text-decoration: none;
+    color:white;
+}
+.map{
+    height: 55vh;
+    width: 79vw;
+}
+
+@media screen and (max-width: 450px) {
+    .contact{
+        grid-template-columns: auto;
+    }
+    .map{
+        width: 94vw;
+    }
+    .form{
+        margin-top:1.5em !important;
+    }
 }
