@@ -24,7 +24,7 @@ export default function Home() {
           {/* <div className={styles.welcome}>Welcome to</div>
           <div className={styles.title}>Pandyaji Matrugaya</div>
           <div className={styles.subtitle}>Your one stop for complete matrugaya pooja</div> */}
-          <div className="pic-ctn"  style={carouselStyles}>
+          <div className="pic-ctn" style={carouselStyles}>
             <Carousel>
               <Image height="400" width="300" src="/images/bindu-sarovar.jpg" alt="" className="pic" />
               <Image height="400" width="300" src="/images/img1.jpg" alt="" className="pic" />
@@ -41,19 +41,16 @@ export default function Home() {
           We are the purohit of Matrugaya Tirth Kshetra, Siddhpur and we are the gour for Bhatias, Sonis and Patels.
         </p>
       </div>
-      <div className="container">
-        <h2>Importance of Matrugaya</h2>
-        <p>
-          We never realise the importance of a mother until she leaves for the heavenly abode.
-
-          A life lived selflessly for her home, husband and children, a mother is worshipped by the Gods too.
-          Her sacrifices are uncountable towards her children. This tarpan is a thanksgiving and liberating our ancestors and our mother from the vicious circle of life and death.
-          It&apos;s said this pious place called the matru gaya tirth enables our ancestors or pitru to attain salvation (moksh).
-
-          Hence whether you are a son or a daughter, it&apos;s our duty to help them attain liberation.
-
-          This puja is repaying the debt of our mother. Hence the name matru gaya mentioned in the bhagwat gita too.
-        </p>
+      <div className='container'>
+        <h2>Our Services</h2>
+        <div className={styles.ourService}>
+          <div className={`card ${styles.serviceItem}`}>Matrugaya Shradh Pooja</div>
+          <div className={`card ${styles.serviceItem}`}>Naraya Bali Shradh Pooja</div>
+          <div className={`card ${styles.serviceItem}`}>Matru/Pitru Tarpan Shradh Pooja</div>
+          <div className={`card ${styles.serviceItem}`}>Matru/Pitru Dosh Pooja</div>
+          <div className={`card ${styles.serviceItem}`}>Hasti Visarjan Pooja</div>
+          <div className={`card ${styles.serviceItem}`}>Tirth Shradh Pooja</div>
+        </div>
       </div>
     </>
   )

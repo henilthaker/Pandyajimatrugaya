@@ -79,18 +79,15 @@
     animation: display 10s infinite;
 }
 
-/* img:nth-child(2) {
-    animation-delay: 2s;
+.ourService{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-img:nth-child(3) {
-    animation-delay: 4s;
+.serviceItem{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
 }
-
-img:nth-child(4) {
-    animation-delay: 6s;
-}
-
-img:nth-child(5) {
-    animation-delay: 8s;
-} */

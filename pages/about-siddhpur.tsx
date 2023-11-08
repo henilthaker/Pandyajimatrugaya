@@ -1,11 +1,35 @@
 import Head from "next/head";
+import Image from "next/image";
+import { useState, useEffect } from "react";
 export default function Contact() {
+    const [width, setWidth] = useState(0);
+    const [height, setHeight] = useState(0);
+    useEffect(() => {
+        const handleResize = () => {
+          setWidth(0.75*(window.innerWidth));
+          setHeight(0.35*(window.innerWidth))
+        };
+    
+        // Initial call to set the initial width
+        handleResize();
+    
+        // Add an event listener for window resize
+        window.addEventListener('resize', handleResize);
+    
+        // Clean up the event listener when component is unmounted
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
     return (
         <>
             <Head>
                 <title>Pandyaji Matrugaya | About Siddhpur</title>
             </Head>
-            <div className="container my-4">
+            <div className="card">
+                <Image src="/images/rudra_mahalay.jpg" alt="rudra mahalay" height={height} width={width} />
+            </div>
+            <div className="container my-2">
                 <p>
                     It is a revered location situated alongside the holy lake Bindu Sarovara and the Vedic river Saraswathi. It is a holy location where Sage Kardhama received the divine vision of Lord Vishnu after performing tremendous penance there for 10,000 years.
                 </p>
