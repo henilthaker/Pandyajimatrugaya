@@ -46,3 +46,20 @@ p {
     /* text-align: center; */
     width: fit-content;
   }
+
+  @media(width < 470px){
+    .contact-list{
+        justify-content: flex-start !important;
+    }
+}
+
+@media(width < 400px){
+  .my-footer{
+    font-size: small;
+  }
+}
+@media(width < 360px){
+  .my-footer{
+    font-size: smaller;
+  }
+}

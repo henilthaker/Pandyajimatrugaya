@@ -9,7 +9,7 @@ const Footer = () => {
                 <li className="nav-item"><Link href="/about-siddhpur" className="nav-link px-2 text-body-secondary">About Siddhpur</Link></li>
                 <li className="nav-item"><Link href="/contact" className="nav-link px-2 text-body-secondary">Contact</Link></li>
             </ul>
-            <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+            <ul className="contact-list nav justify-content-center border-bottom pb-3 mb-3">
                 <li className="nav-item text-body-secondary px-2"><i className="fa fa-phone fa-lg mx-2"></i>9925072800</li>
                 <li className="nav-item text-body-secondary px-2"><i className="fa fa-envelope mx-2"></i>jigneshpandya@gmail.com</li>
                 <li className="nav-item text-body-secondary px-2"><i className="fa fa-map-marker fa-lg mx-2"></i>Bindusarovar, Siddhpur, Gujarat, India</li>
