@@ -25,11 +25,13 @@ export default function Gallery() {
             <div className={styles.imageGrid}>
                 {imageList.map((file) => (
                     <div className="my-4 card" key={uuidv4()}>
-                        <img
+                        <Image
                             key={file}
                             src={`/Gallery/${file}`}
                             alt={file}
                             className={styles.cardImg}
+                            height="200"
+                            width="335"
                         />
                     </div>
                 ))}

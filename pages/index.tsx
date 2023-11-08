@@ -34,9 +34,9 @@ export default function Home() {
 
           A life lived selflessly for her home, husband and children, a mother is worshipped by the Gods too.
           Her sacrifices are uncountable towards her children. This tarpan is a thanksgiving and liberating our ancestors and our mother from the vicious circle of life and death.
-          It's said this pious place called the matru gaya tirth enables our ancestors or pitru to attain salvation (moksh).
+          It&apos;s said this pious place called the matru gaya tirth enables our ancestors or pitru to attain salvation (moksh).
 
-          Hence whether you are a son or a daughter, it's our duty to help them attain liberation.
+          Hence whether you are a son or a daughter, it&apos;s our duty to help them attain liberation.
 
           This puja is repaying the debt of our mother. Hence the name matru gaya mentioned in the bhagwat gita too.
         </p>
