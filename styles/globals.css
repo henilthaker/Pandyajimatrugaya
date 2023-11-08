@@ -32,3 +32,15 @@ p {
     padding-left: 5rem;
     padding-right: 5rem;;
 }
+
+.card {
+    position: relative;
+    margin: 10px auto;
+    background-color: white;
+    /* border: 1px solid rgb(180, 180, 180); */
+    border-radius: 3px;
+    box-shadow: 0 0 11px rgb(139, 139, 139);
+    box-sizing: content-box;
+    /* text-align: center; */
+    width: fit-content;
+  }

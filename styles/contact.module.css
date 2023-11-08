@@ -5,9 +5,10 @@
 }
 .contact_details{
     width: fit-content;
-    background-color: coral;
-    color:white;
-    box-shadow: 2px 2px 4px rgb(112, 112, 112);
+    height: fit-content;
+    /* background-color: coral; */
+    /* color:white; */
+    /* box-shadow: 2px 2px 4px rgb(112, 112, 112); */
 }
 .button{
     text-decoration: none;

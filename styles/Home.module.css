@@ -1,7 +1,6 @@
 .img{
     margin-top: 4px;
-    position: absolute;
-    opacity: 0.5;
+    position: relative;
 }
 .welcome{
     font-size: 1.3em;
@@ -22,8 +21,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    width: 79vw;
+    /* height: 70vh; */
+    /* width: 79vw; */
     /* background: url('/images/bindu-sarovar1.jpg');
     background-blend-mode: overlay; */
     /* color:white; */

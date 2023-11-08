@@ -1,0 +1,22 @@
+  .cardImg {
+      width: 335px;
+      border-radius: 3px 3px 3px 3px;
+  }
+
+  .imageGrid {
+      margin: 10px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+  }
+
+  @media (width < 991px) {
+      .imageGrid {
+          grid-template-columns: auto auto;
+      }
+  }
+
+  @media (width <=640px) {
+      .imageGrid {
+          grid-template-columns: auto;
+      }
+  }

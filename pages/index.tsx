@@ -15,10 +15,10 @@ export default function Home() {
       </Head>
       <div className="container my-4">
         <div className={styles.titleImg}>
-          {/* <Image src="/images/bindu-sarovar.jpg" width="940" height="450" alt="..." className={styles.img} /> */}
-          <div className={styles.welcome}>Welcome to</div>
+          <img src="/Gallery/IMG-20231103-WA0011.jpg" height="400px" alt="..." className={styles.img} />
+          {/* <div className={styles.welcome}>Welcome to</div>
           <div className={styles.title}>Pandyaji Matrugaya</div>
-          <div className={styles.subtitle}>Your one stop for complete matrugaya pooja</div>
+          <div className={styles.subtitle}>Your one stop for complete matrugaya pooja</div> */}
         </div>
         <p className={styles.welcomeNote}>
           We are pleased to welcome you to our website, where you can learn more about the ancient practice of Matrugaya, performed by our knowledgeable and experienced purohit. Matrugaya is a powerful ritual that has been passed down through generations. This tarpan performed as a thanksgiving to our ancestors, especially our mother and to liberate then from the vicious circle of life and death.
@@ -27,7 +27,7 @@ export default function Home() {
           We are the purohit of Matrugaya Tirth Kshetra, Siddhpur and we are the gour for Bhatias, Sonis and Patels.
         </p>
       </div>
-      <div className="container">
+      <div className="container card">
         <h2>Importance of Matrugaya</h2>
         <p>
           We never realise the importance of a mother until she leaves for the heavenly abode.

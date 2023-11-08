@@ -14,9 +14,16 @@
     "@types/react-dom": "18.0.11",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
+    "fs": "^0.0.1-security",
     "next": "13.2.4",
+    "path": "^0.12.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "require": "^2.4.20",
     "typescript": "5.0.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/webpack-env": "^1.18.4"
   }
 }
