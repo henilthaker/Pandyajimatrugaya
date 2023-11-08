@@ -24,7 +24,7 @@ export default function OurServices() {
                     <li>The descendants receive blessings from their ancestors.</li>
                     <li>This rituals helps in removing or reducing the effect of Pitru Dosha if any.</li>
                     <li>It is believed that after performing this ritual, ancestors will bring good fortune and positive energies to their descendants.</li>
-                    <li>This ritual helps in an individual's spiritual progress.</li>
+                    <li>This ritual helps in an individual&apos;s spiritual progress.</li>
                 </ol>
             </div>
         </>

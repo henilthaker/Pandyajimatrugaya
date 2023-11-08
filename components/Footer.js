@@ -54,11 +54,11 @@ const Footer = () => {
         // </div>
             <footer className="py-3 my-4 my-footer" data-bs-theme="dark">
                 <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-                    <li className="nav-item"><a href="/" className="nav-link px-2 text-body-secondary">Home</a></li>
-                    <li className="nav-item"><a href="/gallery" className="nav-link px-2 text-body-secondary">Gallery</a></li>
-                    <li className="nav-item"><a href="/matrugaya" className="nav-link px-2 text-body-secondary">Matrugaya</a></li>
-                    <li className="nav-item"><a href="/about-siddhpur" className="nav-link px-2 text-body-secondary">About Siddhpur</a></li>
-                    <li className="nav-item"><a href="/contact" className="nav-link px-2 text-body-secondary">Contact</a></li>
+                    <li className="nav-item"><Link href="/" className="nav-link px-2 text-body-secondary">Home</Link></li>
+                    <li className="nav-item"><Link href="/gallery" className="nav-link px-2 text-body-secondary">Gallery</Link></li>
+                    <li className="nav-item"><Link href="/matrugaya" className="nav-link px-2 text-body-secondary">Matrugaya</Link></li>
+                    <li className="nav-item"><Link href="/about-siddhpur" className="nav-link px-2 text-body-secondary">About Siddhpur</Link></li>
+                    <li className="nav-item"><Link href="/contact" className="nav-link px-2 text-body-secondary">Contact</Link></li>
                 </ul>
                 <p className="text-center text-body-secondary">© 2023 Pandyaji Matrugaya</p>
             </footer>
