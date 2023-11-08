@@ -3,10 +3,12 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 :root {
-    --bgcolor: rgb(255, 255, 255);
+    --bgcolor: rgb(243, 234, 218);
     /* --navBgcolor: coral; */
 }
-
+body{
+    background-color: var(--bgcolor);
+}
 .container-fluid {
     justify-content: space-between !important;
 }
@@ -30,13 +32,13 @@ p {
 .my-footer{
     background-color: #212529;
     padding-left: 5rem;
-    padding-right: 5rem;;
+    padding-right: 5rem;
+    margin-bottom: 0 !important;
 }
 
 .card {
     position: relative;
     margin: 10px auto;
-    background-color: white;
     /* border: 1px solid rgb(180, 180, 180); */
     border-radius: 3px;
     box-shadow: 0 0 11px rgb(139, 139, 139);

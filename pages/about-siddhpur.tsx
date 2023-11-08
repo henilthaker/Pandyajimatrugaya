@@ -5,7 +5,7 @@ export default function Contact() {
             <Head>
                 <title>Pandyaji Matrugaya | About Siddhpur</title>
             </Head>
-            <div className="container my-4 card">
+            <div className="container my-4">
                 <p>
                     It is a revered location situated alongside the holy lake Bindu Sarovara and the Vedic river Saraswathi. It is a holy location where Sage Kardhama received the divine vision of Lord Vishnu after performing tremendous penance there for 10,000 years.
                 </p>
