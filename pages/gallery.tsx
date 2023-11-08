@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from '../styles/gallery.module.css';
+import { v4 as uuidv4 } from 'uuid';
 
 export default function Gallery() {
     const imageList = [
@@ -23,7 +24,7 @@ export default function Gallery() {
 
             <div className={styles.imageGrid}>
                 {imageList.map((file) => (
-                    <div className="my-4 card">
+                    <div className="my-4 card" key={uuidv4()}>
                         <img
                             key={file}
                             src={`/Gallery/${file}`}

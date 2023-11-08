@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <div className="container my-4">
         <div className={styles.titleImg}>
-          <img src="/Gallery/IMG-20231103-WA0011.jpg" height="400px" alt="..." className={styles.img} />
+          <Image src="/Gallery/IMG-20231103-WA0011.jpg" height="400" width="400" alt="..." className={styles.img} />
           {/* <div className={styles.welcome}>Welcome to</div>
           <div className={styles.title}>Pandyaji Matrugaya</div>
           <div className={styles.subtitle}>Your one stop for complete matrugaya pooja</div> */}
