@@ -2,12 +2,15 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=M+PLUS+Rounded+1c&display=swap');
+
 :root {
     --bgcolor: rgb(243, 234, 218);
     /* --navBgcolor: coral; */
 }
 body{
     background-color: var(--bgcolor);
+    font-family: 'M Plus Rounded 1c';
 }
 .container-fluid {
     justify-content: space-between !important;
@@ -19,10 +22,16 @@ body{
 
 .navbar {
     font-size: 1.1em;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .navbar-brand {
-    font-size: 1.7em;
+    font-size: 1.3em;
+    font-family: 'Agbalumo';
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    
 }
 
 p {
