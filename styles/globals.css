@@ -47,6 +47,10 @@ p {
     width: fit-content;
   }
 
+  .contact-item{
+    margin: 5px 0px;
+  }
+
   @media(width < 470px){
     .contact-list{
         justify-content: flex-start !important;
