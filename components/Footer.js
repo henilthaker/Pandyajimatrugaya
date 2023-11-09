@@ -10,12 +10,12 @@ const Footer = () => {
                 <li className="nav-item"><Link href="/contact" className="nav-link px-2 text-body-secondary">Contact</Link></li>
             </ul>
             <ul className="contact-list nav justify-content-center border-bottom pb-3 mb-3">
-                <li className="contact-item nav-item text-body-secondary px-2"><i className="fa fa-phone fa-lg mx-2"></i>9925072800</li>
+                <li className="contact-item nav-item text-body-secondary px-2"><i className="fa fa-phone fa-lg mx-2"></i>9925308771</li>
                 <li className="contact-item nav-item text-body-secondary px-2"><i className="fa fa-envelope mx-2"></i>jigneshpandya@gmail.com</li>
                 <li className="contact-item nav-item text-body-secondary px-2"><i className="fa fa-map-marker fa-lg mx-2"></i>Bindusarovar, Siddhpur, Gujarat, India</li>
 
             </ul>
-            <p className="text-center text-body-secondary">© 2023 Pandyaji Matrugaya</p>
+            <p className="text-center text-body-secondary">© 2023 Siddhpur Matrugaya Purohit</p>
         </footer>
     );
 }

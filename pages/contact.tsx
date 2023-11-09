@@ -21,7 +21,7 @@ export default function Contact() {
                         <tbody>
                             <tr className={styles.table_row}>
                                 <td><i className="fa fa-phone fa-lg"></i></td>
-                                <td>9925072800</td>
+                                <td>9925308771</td>
                             </tr>
                             <tr className={styles.table_row}>
                                 <td><i className="fa fa-envelope"></i></td>
