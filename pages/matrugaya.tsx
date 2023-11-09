@@ -27,7 +27,7 @@ export default function OurServices() {
                 <title>Pandyaji Matrugaya | Matrugaya Details</title>
             </Head>
             <div className="card">
-                <iframe width={width} height={height} src="https://www.youtube.com/embed/CJM6_6uf5j0?si=NsQt4TIGCR6LS4sB" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                <iframe width={width} height={height} src="https://www.youtube.com/embed/QZzVqedwINM?si=_KgOnwwwMQiU6uKO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </div>
             <div className="container my-2">
                 <h2>History of Matrugaya</h2>
