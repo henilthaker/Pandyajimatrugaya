@@ -24,7 +24,7 @@ export default function OurServices() {
     return (
         <>
             <Head>
-                <title>Pandyaji Matrugaya | Matrugaya Details</title>
+                <title>Siddhpur Matrugaya Purohit | Matrugaya Details</title>
             </Head>
             <div className="card">
                 <iframe width={width} height={height} src="https://www.youtube.com/embed/QZzVqedwINM?si=_KgOnwwwMQiU6uKO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>

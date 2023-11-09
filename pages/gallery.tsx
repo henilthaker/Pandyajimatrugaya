@@ -19,7 +19,7 @@ export default function Gallery() {
     return (
         <>
             <Head>
-                <title>Pandyaji Matrugaya | Gallery</title>
+                <title>Siddhpur Matrugaya Purohit | Gallery</title>
             </Head>
 
             <div className={styles.imageGrid}>

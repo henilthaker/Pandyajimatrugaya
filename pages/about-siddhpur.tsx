@@ -24,7 +24,7 @@ export default function Contact() {
     return (
         <>
             <Head>
-                <title>Pandyaji Matrugaya | About Siddhpur</title>
+                <title>Siddhpur Matrugaya Purohit | About Siddhpur</title>
             </Head>
             <div className="card">
                 <Image src="/images/rudra_mahalay.jpg" alt="rudra mahalay" height={height} width={width} />

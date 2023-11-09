@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Pandyaji Matrugaya | Home</title>
+        <title>Siddhpur Matrugaya Purohit | Home</title>
       </Head>
       <div className="container my-4">
         <div className={styles.titleImg}>
