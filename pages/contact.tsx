@@ -25,7 +25,7 @@ export default function Contact() {
                             </tr>
                             <tr className={styles.table_row}>
                                 <td><i className="fa fa-envelope"></i></td>
-                                <td>jigneshpandya@gmail.com</td>
+                                <td>jigneshpandya@gmail101.com</td>
                             </tr>
                             <tr className={styles.table_row}>
                                 <td><i className="fa fa-map-marker fa-lg"></i></td>
