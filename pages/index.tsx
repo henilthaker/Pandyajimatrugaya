@@ -47,7 +47,7 @@ export default function Home() {
           <div className={`card ${styles.serviceItem}`}>Matrugaya Shradh Pooja</div>
           <div className={`card ${styles.serviceItem}`}>Naraya Bali Shradh Pooja</div>
           <div className={`card ${styles.serviceItem}`}>Matru/Pitru Tarpan Shradh Pooja</div>
-          <div className={`card ${styles.serviceItem}`}>Hasti Visarjan Pooja</div>
+          <div className={`card ${styles.serviceItem}`}>Asthi Visarjan Pooja</div>
           <div className={`card ${styles.serviceItem}`}>Tirth Shradh Pooja</div>
           <div className={`card ${styles.serviceItem}`}>Dasha Ekadasha Dhvadasha Shradh Karma</div>
         </div>
