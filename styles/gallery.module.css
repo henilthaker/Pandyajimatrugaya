@@ -9,6 +9,10 @@
       grid-template-columns: auto auto auto;
   }
 
+  .video{
+    margin-top: 20px;
+  }
+
   @media (width < 991px) {
       .imageGrid {
           grid-template-columns: auto auto;

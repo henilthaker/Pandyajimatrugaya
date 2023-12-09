@@ -2,8 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from '../styles/gallery.module.css';
 import { v4 as uuidv4 } from 'uuid';
+import { useEffect, useState } from "react";
 
 export default function Gallery() {
+    const [width, setWidth] = useState(0);
+    const [height, setHeight] = useState(0);
     const imageList = [
         'IMG-20231030-WA0009.jpg',
         'IMG-20231030-WA0010.jpg',
@@ -16,12 +19,31 @@ export default function Gallery() {
         'IMG-20231030-WA0021.jpg',
         'IMG-20231030-WA0022.jpg',
     ]
+    useEffect(() => {
+        const handleResize = () => {
+            setWidth(0.75 * (window.innerWidth));
+            setHeight(0.35 * (window.innerWidth))
+        };
+
+        // Initial call to set the initial width
+        handleResize();
+
+        // Add an event listener for window resize
+        window.addEventListener('resize', handleResize);
+
+        // Clean up the event listener when component is unmounted
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
     return (
         <>
             <Head>
                 <title>Siddhpur Matrugaya Purohit | Gallery</title>
             </Head>
-
+            <div className="container">
+            <video src = "/video1.mp4" width={width} height={height} className={styles.video} controls />
+            </div>
             <div className={styles.imageGrid}>
                 {imageList.map((file) => (
                     <div className="my-4 card" key={uuidv4()}>
