@@ -18,6 +18,9 @@ export default function Gallery() {
         'IMG-20231030-WA0020.jpg',
         'IMG-20231030-WA0021.jpg',
         'IMG-20231030-WA0022.jpg',
+        'WhatsApp Image 2024-02-12 at 16.54.16_3835c1f4.jpg',
+        'WhatsApp Image 2024-02-12 at 16.54.16_65755292.jpg',
+        'WhatsApp Image 2024-02-12 at 16.54.16_ba7fe105.jpg'
     ]
     useEffect(() => {
         const handleResize = () => {
