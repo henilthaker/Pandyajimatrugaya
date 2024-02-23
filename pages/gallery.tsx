@@ -20,7 +20,14 @@ export default function Gallery() {
         'IMG-20231030-WA0022.jpg',
         'WhatsApp Image 2024-02-12 at 16.54.16_3835c1f4.jpg',
         'WhatsApp Image 2024-02-12 at 16.54.16_65755292.jpg',
-        'WhatsApp Image 2024-02-12 at 16.54.16_ba7fe105.jpg'
+        'WhatsApp Image 2024-02-12 at 16.54.16_ba7fe105.jpg',
+        'IMG-20240217-WA0011.jpg',
+        'IMG-20240217-WA0012.jpg',
+        'IMG-20240217-WA0013.jpg',
+        'IMG-20240217-WA0014.jpg',
+        'IMG-20240217-WA0015.jpg',
+        'IMG-20240217-WA0016.jpg',
+        'IMG-20240217-WA0017.jpg'
     ]
     useEffect(() => {
         const handleResize = () => {
