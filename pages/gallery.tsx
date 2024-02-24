@@ -25,7 +25,6 @@ export default function Gallery() {
         'IMG-20240217-WA0012.jpg',
         'IMG-20240217-WA0013.jpg',
         'IMG-20240217-WA0014.jpg',
-        'IMG-20240217-WA0015.jpg',
         'IMG-20240217-WA0016.jpg',
         'IMG-20240217-WA0017.jpg'
     ]
