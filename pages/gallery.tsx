@@ -14,7 +14,7 @@ export default function Gallery() {
         const folderId = process.env.FOLDERID;
         const apiKey = process.env.APIKEY;
         const qParam = encodeURIComponent(`'${folderId}' in parents`);
-        const apiKeyParam = encodeURIComponent(apiKey);
+        const apiKeyParam = encodeURIComponent(`${apiKey}`); // not directly writing apiKey to make sure that parameter passed in the function is a string. Earlier was giving error in deployment
         const apiUrl = `https://www.googleapis.com/drive/v3/files?q=${qParam}&key=${apiKeyParam}`;
 
         try {
