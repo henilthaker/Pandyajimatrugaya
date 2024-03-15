@@ -19,8 +19,8 @@ export default function Gallery() {
 
         try {
             const response = await axios.get(apiUrl);
-            const imageIds = response.data.files.map(file => file.id);
-            const imageUrls = imageIds.map(id => `https://drive.google.com/uc?id=${id}`);
+            const imageIds = response.data.files.map((file: { id: any; }) => file.id); // to solve the issue of file type being "any" implicitly
+            const imageUrls = imageIds.map((id: any) => `https://drive.google.com/uc?id=${id}`);
             setImageList(imageUrls);
         } catch (error) {
             console.error('Error fetching images from Google Drive:', error);
