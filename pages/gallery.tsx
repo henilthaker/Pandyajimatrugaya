@@ -11,8 +11,8 @@ export default function Gallery() {
     const [imageList, setImageList] = useState([]);
 
     const getGoogleDriveImages = async () => {
-        const folderId = process.env.NEXT_PUBLIC_FOLDERID;
-        const apiKey = process.env.NEXT_PUBLIC_APIKEY;
+        const folderId = process.env.FOLDERID;
+        const apiKey = process.env.APIKEY;
         const qParam = encodeURIComponent(`'${folderId}' in parents`);
         const apiKeyParam = encodeURIComponent(apiKey);
         const apiUrl = `https://www.googleapis.com/drive/v3/files?q=${qParam}&key=${apiKeyParam}`;
