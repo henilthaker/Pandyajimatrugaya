@@ -3,32 +3,33 @@ import Image from "next/image";
 import styles from '../styles/gallery.module.css';
 import { v4 as uuidv4 } from 'uuid';
 import { useEffect, useState } from "react";
+import axios from 'axios';
 
 export default function Gallery() {
     const [width, setWidth] = useState(0);
     const [height, setHeight] = useState(0);
-    const imageList = [
-        'IMG-20231030-WA0009.jpg',
-        'IMG-20231030-WA0010.jpg',
-        'IMG-20231030-WA0011.jpg',
-        'IMG-20231030-WA0012.jpg',
-        'IMG-20231030-WA0013.jpg',
-        'IMG-20231030-WA0016.jpg',
-        'IMG-20231030-WA0017.jpg',
-        'IMG-20231030-WA0020.jpg',
-        'IMG-20231030-WA0021.jpg',
-        'IMG-20231030-WA0022.jpg',
-        'WhatsApp Image 2024-02-12 at 16.54.16_3835c1f4.jpg',
-        'WhatsApp Image 2024-02-12 at 16.54.16_65755292.jpg',
-        'WhatsApp Image 2024-02-12 at 16.54.16_ba7fe105.jpg',
-        'IMG-20240217-WA0011.jpg',
-        'IMG-20240217-WA0012.jpg',
-        'IMG-20240217-WA0013.jpg',
-        'IMG-20240217-WA0014.jpg',
-        'IMG-20240217-WA0016.jpg',
-        'IMG-20240217-WA0017.jpg'
-    ]
+    const [imageList, setImageList] = useState([]);
+
+    const getGoogleDriveImages = async () => {
+        const folderId = process.env.NEXT_PUBLIC_FOLDERID;
+        const apiKey = process.env.NEXT_PUBLIC_APIKEY;
+        const qParam = encodeURIComponent(`'${folderId}' in parents`);
+        const apiKeyParam = encodeURIComponent(apiKey);
+        const apiUrl = `https://www.googleapis.com/drive/v3/files?q=${qParam}&key=${apiKeyParam}`;
+
+        try {
+            const response = await axios.get(apiUrl);
+            const imageIds = response.data.files.map(file => file.id);
+            const imageUrls = imageIds.map(id => `https://drive.google.com/uc?id=${id}`);
+            setImageList(imageUrls);
+        } catch (error) {
+            console.error('Error fetching images from Google Drive:', error);
+            return [];
+        }
+    };
+
     useEffect(() => {
+        getGoogleDriveImages();
         const handleResize = () => {
             setWidth(0.75 * (window.innerWidth));
             setHeight(0.35 * (window.innerWidth))
@@ -51,14 +52,14 @@ export default function Gallery() {
                 <title>Siddhpur Matrugaya Purohit | Gallery</title>
             </Head>
             <div className="container">
-            <video src = "/video1.mp4" width={width} height={height} className={styles.video} controls />
+                <video src="/video1.mp4" width={width} height={height} className={styles.video} controls />
             </div>
             <div className={styles.imageGrid}>
-                {imageList.map((file) => (
+                {imageList && imageList.map((file) => (
                     <div className="my-4 card" key={uuidv4()}>
                         <Image
                             key={file}
-                            src={`/Gallery/${file}`}
+                            src={file}
                             alt={file}
                             className={styles.cardImg}
                             height="200"
